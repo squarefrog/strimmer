@@ -36,7 +36,7 @@
 					<key>XCSourceEditorCommandIdentifier</key>
 					<string>uk.co.squarefrog.StrimmerWrapper.Strimmer.SourceEditorCommand</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>Source Editor Command</string>
+					<string>Strip All Trailing Whitespace in File</string>
 				</dict>
 			</array>
 			<key>XCSourceEditorExtensionPrincipalClass</key>
