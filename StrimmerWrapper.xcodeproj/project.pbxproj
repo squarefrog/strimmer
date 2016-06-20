@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E15AF301D17E61300AAC3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15AF2F1D17E61300AAC3EB /* AppDelegate.swift */; };
+		0E15AF321D17E61300AAC3EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E15AF311D17E61300AAC3EB /* Assets.xcassets */; };
+		0E15AF351D17E61300AAC3EB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E15AF331D17E61300AAC3EB /* MainMenu.xib */; };
+		0E15AF431D17E62100AAC3EB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E15AF421D17E62100AAC3EB /* Cocoa.framework */; };
+		0E15AF481D17E62100AAC3EB /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15AF471D17E62100AAC3EB /* SourceEditorExtension.swift */; };
+		0E15AF4A1D17E62100AAC3EB /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15AF491D17E62100AAC3EB /* SourceEditorCommand.swift */; };
+		0E15AF4E1D17E62100AAC3EB /* Strimmer.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0E15AF401D17E62000AAC3EB /* Strimmer.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E15AF4C1D17E62100AAC3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E15AF241D17E61300AAC3EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E15AF3F1D17E62000AAC3EB;
+			remoteInfo = Strimmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E15AF521D17E62100AAC3EB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0E15AF4E1D17E62100AAC3EB /* Strimmer.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E15AF2C1D17E61300AAC3EB /* StrimmerWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrimmerWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E15AF2F1D17E61300AAC3EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E15AF311D17E61300AAC3EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E15AF341D17E61300AAC3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0E15AF361D17E61300AAC3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E15AF401D17E62000AAC3EB /* Strimmer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Strimmer.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E15AF421D17E62100AAC3EB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0E15AF461D17E62100AAC3EB /* Strimmer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Strimmer.entitlements; sourceTree = "<group>"; };
+		0E15AF471D17E62100AAC3EB /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		0E15AF491D17E62100AAC3EB /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		0E15AF4B1D17E62100AAC3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E15AF291D17E61300AAC3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E15AF3D1D17E62000AAC3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E15AF431D17E62100AAC3EB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E15AF231D17E61300AAC3EB = {
+			isa = PBXGroup;
+			children = (
+				0E15AF2E1D17E61300AAC3EB /* StrimmerWrapper */,
+				0E15AF441D17E62100AAC3EB /* Strimmer */,
+				0E15AF411D17E62100AAC3EB /* Frameworks */,
+				0E15AF2D1D17E61300AAC3EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E15AF2D1D17E61300AAC3EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E15AF2C1D17E61300AAC3EB /* StrimmerWrapper.app */,
+				0E15AF401D17E62000AAC3EB /* Strimmer.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E15AF2E1D17E61300AAC3EB /* StrimmerWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				0E15AF2F1D17E61300AAC3EB /* AppDelegate.swift */,
+				0E15AF311D17E61300AAC3EB /* Assets.xcassets */,
+				0E15AF331D17E61300AAC3EB /* MainMenu.xib */,
+				0E15AF361D17E61300AAC3EB /* Info.plist */,
+			);
+			path = StrimmerWrapper;
+			sourceTree = "<group>";
+		};
+		0E15AF411D17E62100AAC3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E15AF421D17E62100AAC3EB /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E15AF441D17E62100AAC3EB /* Strimmer */ = {
+			isa = PBXGroup;
+			children = (
+				0E15AF471D17E62100AAC3EB /* SourceEditorExtension.swift */,
+				0E15AF491D17E62100AAC3EB /* SourceEditorCommand.swift */,
+				0E15AF4B1D17E62100AAC3EB /* Info.plist */,
+				0E15AF451D17E62100AAC3EB /* Supporting Files */,
+			);
+			path = Strimmer;
+			sourceTree = "<group>";
+		};
+		0E15AF451D17E62100AAC3EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E15AF461D17E62100AAC3EB /* Strimmer.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E15AF2B1D17E61300AAC3EB /* StrimmerWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E15AF391D17E61300AAC3EB /* Build configuration list for PBXNativeTarget "StrimmerWrapper" */;
+			buildPhases = (
+				0E15AF281D17E61300AAC3EB /* Sources */,
+				0E15AF291D17E61300AAC3EB /* Frameworks */,
+				0E15AF2A1D17E61300AAC3EB /* Resources */,
+				0E15AF521D17E62100AAC3EB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E15AF4D1D17E62100AAC3EB /* PBXTargetDependency */,
+			);
+			name = StrimmerWrapper;
+			productName = StrimmerWrapper;
+			productReference = 0E15AF2C1D17E61300AAC3EB /* StrimmerWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E15AF3F1D17E62000AAC3EB /* Strimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E15AF4F1D17E62100AAC3EB /* Build configuration list for PBXNativeTarget "Strimmer" */;
+			buildPhases = (
+				0E15AF3C1D17E62000AAC3EB /* Sources */,
+				0E15AF3D1D17E62000AAC3EB /* Frameworks */,
+				0E15AF3E1D17E62000AAC3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strimmer;
+			productName = Strimmer;
+			productReference = 0E15AF401D17E62000AAC3EB /* Strimmer.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E15AF241D17E61300AAC3EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = squarefrog;
+				TargetAttributes = {
+					0E15AF2B1D17E61300AAC3EB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 86EBQCF3JT;
+						DevelopmentTeamName = "Paul Williamson (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					0E15AF3F1D17E62000AAC3EB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 86EBQCF3JT;
+						DevelopmentTeamName = "Paul Williamson (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0E15AF271D17E61300AAC3EB /* Build configuration list for PBXProject "StrimmerWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E15AF231D17E61300AAC3EB;
+			productRefGroup = 0E15AF2D1D17E61300AAC3EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E15AF2B1D17E61300AAC3EB /* StrimmerWrapper */,
+				0E15AF3F1D17E62000AAC3EB /* Strimmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E15AF2A1D17E61300AAC3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E15AF321D17E61300AAC3EB /* Assets.xcassets in Resources */,
+				0E15AF351D17E61300AAC3EB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E15AF3E1D17E62000AAC3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E15AF281D17E61300AAC3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E15AF301D17E61300AAC3EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E15AF3C1D17E62000AAC3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E15AF481D17E62100AAC3EB /* SourceEditorExtension.swift in Sources */,
+				0E15AF4A1D17E62100AAC3EB /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E15AF4D1D17E62100AAC3EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E15AF3F1D17E62000AAC3EB /* Strimmer */;
+			targetProxy = 0E15AF4C1D17E62100AAC3EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E15AF331D17E61300AAC3EB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E15AF341D17E61300AAC3EB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E15AF371D17E61300AAC3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E15AF381D17E61300AAC3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		0E15AF3A1D17E61300AAC3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StrimmerWrapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.squarefrog.StrimmerWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0E15AF3B1D17E61300AAC3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = StrimmerWrapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.squarefrog.StrimmerWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0E15AF501D17E62100AAC3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Strimmer/Strimmer.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Strimmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.squarefrog.StrimmerWrapper.Strimmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0E15AF511D17E62100AAC3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Strimmer/Strimmer.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Strimmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.squarefrog.StrimmerWrapper.Strimmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E15AF271D17E61300AAC3EB /* Build configuration list for PBXProject "StrimmerWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E15AF371D17E61300AAC3EB /* Debug */,
+				0E15AF381D17E61300AAC3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E15AF391D17E61300AAC3EB /* Build configuration list for PBXNativeTarget "StrimmerWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E15AF3A1D17E61300AAC3EB /* Debug */,
+				0E15AF3B1D17E61300AAC3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E15AF4F1D17E62100AAC3EB /* Build configuration list for PBXNativeTarget "Strimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E15AF501D17E62100AAC3EB /* Debug */,
+				0E15AF511D17E62100AAC3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E15AF241D17E61300AAC3EB /* Project object */;
+}
