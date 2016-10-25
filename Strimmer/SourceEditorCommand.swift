@@ -10,7 +10,7 @@ import Foundation
 import XcodeKit
 
 class SourceEditorCommand: NSObject, XCSourceEditorCommand {
-    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: (NSError?) -> Void ) -> Void {
+    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void ) {
 
         // Keep an array of changed line indices.
         var changedLineIndexes = [Int]()
@@ -21,7 +21,7 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
             let originalLine = invocation.buffer.lines[lineIndex] as! String
             let newLine = originalLine.replacingOccurrences(of: "[ \t]+$",
                                                             with: "",
-                                                            options: .regularExpressionSearch)
+                                                            options: [])
 
             // Only update lines that have changed.
             if originalLine != newLine {
